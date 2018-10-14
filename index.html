@@ -25,18 +25,25 @@
         <label for="category" class="primary">Category</label>
         <select id="genre">
           <option value="" disabled selected></option>
-          <option value="Book">Book</option>
-          <option value="Article">Article</option>
-          <option value="Blog Post">Blog Post</option>
+          <option value="Pop">Pop</option>
+          <option value="Rock">Rock</option>
+          <option value="Jazz">Jazz</option>
         </select>
       </div>
+
+      <label for="downloadList" class="primary">Download</label><br>
+      <input type="radio" name="download" value="Itunes">Itunes<br>
+      <input type="radio" name="download" value="Spotify">Spotify<br>
+      <input type="radio" name="download" value="Amazon Music">Amazon Music
+
     </div>
     <input type="submit" id="submitForm" value="save"/>
   </form>
 
-  <h1>List of items</h1>
-  <div id="listOfItems">
+  <h1>List of Albums</h1>
+  <div id="listOfAlbums">
 
   </div>
+  <input type="submit" id="deleteAll" value="deleteAll"/>
 </body>
 </html>
